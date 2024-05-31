@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    border: 4px black solid;
+    padding: 20px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navs{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding-left: 40px;
+}
+nav{
+}
+
+.navs:hover{
+    font-weight: bold;
+}
+
+
+.container{
+    padding: 2rem;
+    animation: slide 10s infinite;
+}
+.slider-wrapped{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+    animation: slide 10s infinite;
+
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: scroll;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem --0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+
+}
+
+.slider img {
+    flex-direction: 1 1 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+
+}
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+.divcontacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacto{
+    padding: 30px;
+    border: 1px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.si{
+}
+
+.caja{
+}
+
+.divboletos{
+    display: flex;
+    justify-content: center;
+}
+.boleteria{
+    border: 1px black solid;
+    margin-top: 30px;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btnboleteria{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px black solid;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .boleteria a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.videos2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.videos2 div{
+    padding: 10px;
+}
+
+
+.lugarsito{
+    border: 1px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 300px;
+    background-image: url(img/02a3db81-4cca-425a-9d3c-395f5754ed39-banner-loki-tour-bogota.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sikas{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+.mapa h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.futer{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    border: 1px black solid;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    height: 300px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.empresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    height: 300px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.reds h3{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.malmetio{
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comollego{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.escondido{
+    margin-top: 70px;
+}
